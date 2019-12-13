@@ -1,0 +1,29 @@
+{
+  "name": "simple-vue-template",
+  "version": "1.0.0",
+  "description": "A template for simple Vue applications. This template uses Parcel and Tailwind.",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel build ./index.html"
+  },
+  "author": "Sebastian Markestedt",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0"
+  },
+  "dependencies": {
+    "@vue/component-compiler-utils": "^3.1.0",
+    "npm": "^6.13.4",
+    "tailwindcss": "^1.1.4",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
+}
